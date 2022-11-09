@@ -1,20 +1,93 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
-nav{
-  display:flex;
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500;700&display=swap");
+body {
+	font-family: "Epilogue", sans-serif;
+	font-weight: 500;
 }
-.company-logo{
-  position:relative;
-  left : 5px;
-  right: 0;
+nav {
+	margin-top: 35px;
+	margin-left: 20px;
+	margin-right: 50px;
+	display: flex;
+	font-size: 12px;
 }
-.nav-item{
-  display:flex;
-  left : 80px;
-  position: relative;
+.company-logo {
+	position: relative;
+	right: 0;
 }
-
-.login-cred{
-  display:flex;
-  position:absolute;
-  right: 100px;
+.nav-item {
+	display: flex;
+	left: 80px;
+	position: relative;
+}
+.drop-down {
+	display: flex;
+}
+.drop-down,
+.careers,
+.about,
+.login {
+	cursor: pointer;
+	transition: hover 3s ease-in-out;
+}
+.careers:hover,
+.about:hover,
+.login:hover {
+	font-weight: 700;
+}
+.feature,
+.company,
+.careers,
+.login {
+	margin-right: 20px;
+}
+.down-arrow,
+.up-arrow {
+	margin-left: 3px;
+}
+#outer-feature:hover{
+	margin-right: 19px;
+}
+#drop-down-features {
+	margin-left: -45px;
+}
+ul {
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	box-shadow: 2px 2px 20px rgb(122, 122, 122);
+	padding: 15px 15px 7px 15px;
+	margin-top: 15px;
+	list-style: none;
+}
+ul li {
+	margin-bottom: 10px;
+	font-weight: 300;
+	font-size: 12px;
+}
+ul li img {
+	position: relative;
+	top: 4px;
+	margin-right: 8px;
+}
+.login-cred {
+	display: flex;
+	position: absolute;
+	right: 50px;
+}
+.register {
+	margin-top: -12px;
+	cursor: pointer;
+	background-color: transparent;
+	padding: 7px 15px;
+	border-radius: 10px;
+	transition: hover 3s ease-in-out;
+}
+.register:hover {
+	font-weight: 700;
+	margin-top: -14px;
+	margin-left: -4px;
+	border-width: 2px;
+}
+.grid {
+	display: none;
 }
