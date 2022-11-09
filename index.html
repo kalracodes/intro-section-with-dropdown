@@ -3,23 +3,70 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/snap-icon.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Snap</title>
   </head>
+
   <body>
     <nav>
-      <img src="./images/logo.svg" alt="">
-      
+      <div class="company-logo"><img src="./images/logo.svg" alt="" /></div>
+      <div class="nav-item">
+        <div class="feature drop-down">
+          Features <img src="./images/icon-arrow-down.svg" alt="" />
+          <img src="./images/icon-arrow-up.svg" />
+          <div class="drop-down-features">
+            <ul>
+              <li><img src="./images/icon-todo.svg" alt="" /> Todo list</li>
+              <li><img src="./images/icon-calendar.svg" alt="" />Calendar</li>
+              <li><img src="./images/icon-reminders.svg" alt="" />Reminders</li>
+              <li><img src="./images/icon-planning.svg" alt="" />Planning</li>
+            </ul>
+          </div>
+        </div>
+        <div class="company drop-down">
+          Company<img src="./images/icon-arrow-down.svg" alt="" />
+          <img src="./images/icon-arrow-up.svg" />
+          <div class="drop-down-company">
+            <ul>
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+        <div class="careers">Careers</div>
+        <div class="about">About</div>
+      </div>
+      <div class="login-cred">
+        <div class="login">Login</div>
+        <button class="register">Register</button>
+      </div>
     </nav>
-    Features Company Careers About Login Register Make remote work Get your team
-    in sync, no matter your location. Streamline processes, create team rituals,
-    and watch productivity soar. Learn more
+    <div class="grid">
+      <div class="left">
+        <img src="./images/image-hero-mobile.png" alt="" />
+        <div class="bold">Make remote work</div>
+        <div class="content">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </div>
+        <button class="learn-more">Learn more</button>
+        <div class="logo">
+          <img src="./images/client-databiz.svg" alt="" />
+          <img src="./images/client-audiophile.svg" alt="" />
+          <img src="./images/client-meet.svg" alt="" />
+          <img src="./images/client-maker.svg" alt="" />
+        </div>
+      </div>
+      <div class="right">
+        <img src="./images/image-hero-desktop.png" alt="" />
+      </div>
+    </div>
   </body>
 </html>

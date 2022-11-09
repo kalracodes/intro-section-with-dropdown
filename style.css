@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+nav{
+  display:flex;
+}
+.company-logo{
+  position:relative;
+  left : 5px;
+  right: 0;
+}
+.nav-item{
+  display:flex;
+  left : 80px;
+  position: relative;
+}
+
+.login-cred{
+  display:flex;
+  position:absolute;
+  right: 100px;
+}
