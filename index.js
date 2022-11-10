@@ -49,3 +49,15 @@ outer_company.addEventListener("mouseleave", () => {
 	company_down.style.display = "block";
 	company_drop_down.style.display = "none";
 });
+
+var l3 = document.getElementById("3l");
+var cross = document.getElementById("cross")
+l3.addEventListener("click",()=>{
+	cross.style.display = "inline-block";
+	l3.style.display = "none";
+})
+
+cross.addEventListener("click",()=>{
+	l3.style.display = "inline-block";
+	cross.style.display = "none";
+})

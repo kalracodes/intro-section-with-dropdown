@@ -19,7 +19,7 @@ nav {
 	position: relative;
 	right: 0;
 }
-.three-lines{
+.three-lines,.cross{
 	display:none;
 }
 .nav-item {
@@ -206,15 +206,26 @@ ul li img {
 @media only screen and (max-width: 800px){
 	nav{
 		margin-top: 20px;
-		margin-left: 6px;
+		margin-left: 12px;
 	}
 	.three-lines{
 		display: inline-block;
 		position: absolute;
 		right: 10px;
 	}
+	.cross{
+		display: none;
+		margin-top:-3px;
+		position: absolute;
+		right: 10px;
+	}
 	.nav-item{
 		display: none;
+		/* flex-direction: column;
+		align-self:flex-end;
+		position: absolute;
+		left: calc(100vw - 20%);
+		top: 20%; */
 	}
 	.login-cred{
 		display: none;
@@ -251,14 +262,23 @@ ul li img {
 		color: white;
 		margin-top: 45px;
 		left: 50%;
+		font-weight: 300;
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
+		border-width: 0px;
+	}
+	.learn-more:hover{
+		background-color: white;
+		border-width:2px;
+		font-weight: 300;
+		color: black;
+		margin-top: 45px;
+		margin-bottom:-4px;
 	}
 	.logo{
 		margin-top: 10px;
 		display: flex;
 		max-width: 95vw;
-		/* width: 80%; */
 		margin-left: 10px;
 		justify-content: space-between;
 	}
