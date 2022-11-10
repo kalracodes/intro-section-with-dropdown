@@ -36,7 +36,7 @@ outer_feature.addEventListener("mouseleave", () => {
 });
 company.addEventListener("mouseenter", () => {
     company.style.fontWeight = "bold";
-    career.style.marginLeft = "-15px";
+    career.style.marginLeft = "-1px";
 	company_up.style.display = "block";
 	company_down.style.display = "none";
 	company_drop_down.style.display = "block";
